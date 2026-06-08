@@ -34,5 +34,5 @@ version = { attr = "bcsfe.__version__" }
 package-dir = { "" = "src" }
 
 [project.scripts]
-cuongbcs = "bcsfe.__main__:main"
+cuong = "bcsfe.__main__:main"
 
