@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bcsfe"
+name = "cuong"
 authors = [{ name = "fieryhenry" }]
 description = "A save file editor for The Battle Cats"
 license = "GPL-3.0-or-later"
@@ -34,4 +34,4 @@ version = { attr = "bcsfe.__version__" }
 package-dir = { "" = "src" }
 
 [project.scripts]
-bcsfe = "bcsfe:run"
+cuong = "bcsfe:run"
